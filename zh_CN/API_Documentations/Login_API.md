@@ -5,7 +5,7 @@
 进入/conf/linkis-spring-cloud-services/linkis-mg-gateway目录，执行命令：
 
 ```bash
-    vim linkis-server.properties
+    vim linkis-mg-gateway.properties
 ```    
 
 添加LDAP相关配置：
