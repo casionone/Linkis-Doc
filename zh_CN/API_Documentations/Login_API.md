@@ -2,7 +2,7 @@
 
 ## 1.对接LDAP服务
 
-进入/conf/linkis-spring-cloud-services/linkis-mg-gateway目录，执行命令：
+进入/conf目录，执行命令：
 
 ```bash
     vim linkis-mg-gateway.properties
@@ -16,10 +16,10 @@ wds.linkis.ldap.proxy.baseDN=dc=webank,dc=com # 您的LDAP服务的配置
     
 ## 2.如何打开测试模式，实现免登录
 
-进入/conf/linkis-spring-cloud-services/linkis-mg-gateway目录，执行命令：
+进入/conf目录，执行命令：
 
 ```bash
-    vim linkis-server.properties
+     vim linkis-mg-gateway.properties
 ```
     
     
