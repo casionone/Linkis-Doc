@@ -96,7 +96,7 @@ cd ${LINKIS_HOME}/sbin
 
 ## 执行linkis-daemon脚本
 
-sh linkis-daemon.sh restart linkis-engine-plugin-server
+sh linkis-daemon.sh restart cg-engineplugin
 
 ```
 
