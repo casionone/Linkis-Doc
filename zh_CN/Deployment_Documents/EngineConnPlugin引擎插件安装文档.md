@@ -60,6 +60,9 @@ ${LINKIS_HOME}/lib/linkis-engineconn-plugins/plugin:
    └── plugin
 ```
 
+5. 并配置默认的引擎版本，方便没有带版本的任务进行提交
+`wds.linkis.hive.engine.version=2.3.3`
+
 ### 2.2 管理台Configuration配置修改（可选）
 
 &nbsp;&nbsp;&nbsp;&nbsp;Linkis1.0 管理台的配置是按照引擎标签来进行管理的，如果新增的引擎有配置参数需要在Configuration插入相应的配置参数，需要在三个表中插入参数：
